@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="./img/brand-logo.png" />
+    <link rel="stylesheet" href="https://comp-ui.netlify.app/components/button/button.css">
+    <link rel="stylesheet" href="https://comp-ui.netlify.app/components/badge/badge.css">
+    <link rel="stylesheet" href="https://comp-ui.netlify.app/components/card/card.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://comp-ui.netlify.app/components/navigation/navigation.css">
+    <link rel="stylesheet" href="https://comp-ui.netlify.app/components/input/input.html">
+    <link rel="stylesheet" href="./styles/login.css">
+</head>
+<body>
+    <nav class="navbar"></nav>
+        <div class="login-container">
+            <div class="login-card">
+                <div class="login-card-header">
+                    <h1 class="login-card-title">Login</h1>
+                </div>
+                <div class="login-card-body">
+                    <form class="login-form">																			
+                        <div class="login-form-group">
+                            <label for="email">Email</label><br>
+                            <input class="input" type="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="login-form-group">
+                            <label for="password">Password</label><br>
+                            <input class="input" type="password" name="password" placeholder="Password" required>
+                        </div>
+                        <div class="login-form-checkbox">
+                            <input type="checkbox">
+                            <label for="remember">Remember me</label><br>
+                        </div>
+                        <div class="login-form-group">
+                            <button type="submit" class="btn success login-btn">Login</button>
+                        </div>
+                        <div class="login-form-group form-link">
+                            <a href="./signup.html">Forget Password</a>
+                            <a href="./signup.html">Register</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    <script src="./scripts/nav.js"></script>
+</body>
+</html>
