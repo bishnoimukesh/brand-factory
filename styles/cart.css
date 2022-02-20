@@ -1,0 +1,27 @@
+@import './nav.css';
+@import './footer.css';
+
+.name-heading, .name-sub-heading, .price, .text-striked{
+    padding-top: 1.2em;
+}
+
+.card-horizontal-container{
+    border-radius: 0.5em;
+    margin: 0.5em;
+}
+
+.cart-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.name-heading{
+    padding-bottom: 1em;
+}
+
+.item-price{
+    display: flex;
+    justify-content: space-between;
+    line-height: 2em;
+}

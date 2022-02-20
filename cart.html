@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart </title>
+    <link rel="shortcut icon" href="./img/brand-logo.png" />
+    <link rel="stylesheet" href="https://comp-ui.netlify.app/components/button/button.css">
+    <link rel="stylesheet" href="https://comp-ui.netlify.app/components/badge/badge.css">
+    <link rel="stylesheet" href="https://comp-ui.netlify.app/components/card/card.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://comp-ui.netlify.app/components/navigation/navigation.css">
+    <link rel="stylesheet" href="./styles/cart.css">
+</head>
+<body>
+    <nav class="navbar"></nav>
+    
+    <div class="cart-container">
+        <div class="item-container">
+            <div class="card-horizontal-container">
+                <div class="card-horizontal">
+                    <div class="card-col">
+                        <img class="card-horizontal-img" src="./img/card1.png" alt="img"/>
+                    </div>
+                    <div class="card-col">
+                        <div class="card-details">
+                            <div class="name">
+                            <h2 class="name-heading">Special Dress</h2>
+                            <h4 class="name-sub-heading">by ApniDukan</h4>
+                            </div>
+                            <p class="price">&#x20B9 500
+                                <small class="text-striked">&#x20B9 700</small>
+                            </p>
+                            <a href=""><button class="btn btn-icon success-icon danger-icon cart">
+                                <i class="fas fa-trash"></i>
+                                <span>Delete</span>
+                            </button></a>
+                            <a href=""><button class="btn btn-icon success-icon cart">
+                                <span>Save for Later</span>
+                            </button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>																					
+            <div class="card-horizontal-container">
+                <div class="card-horizontal">
+                    <div class="card-col">
+                        <img class="card-horizontal-img" src="./img/card1.png" alt="img"/>
+                    </div>
+                    <div class="card-col">
+                        <div class="card-details">
+                            <div class="name">
+                            <h2 class="name-heading">Special Dress</h2>
+                            <h4 class="name-sub-heading">by ApniDukan</h4>
+                            </div>
+                            <p class="price">&#x20B9 500
+                                <small class="text-striked">&#x20B9 700</small>
+                            </p>
+                            <a href=""><button class="btn btn-icon success-icon danger-icon cart">
+                                <i class="fas fa-trash"></i>
+                                <span>Delete</span>
+                            </button></a>
+                            <a href=""><button class="btn btn-icon success-icon cart">
+                                <span>Save for Later</span>
+                            </button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>																			
+        </div>
+        <div class="checkout-container">
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-details">
+                        <div class="name">
+                        <h2 class="name-heading">Price Details</h2><hr>
+                        </div>
+                        <div class="item-price">
+                            <p>Price(2 items)</p>
+                            <p>Rs. 800</p>
+                        </div>
+                        <div class="item-price">
+                            <p>Discount</p>
+                            <p>Rs. 300</p>
+                        </div>
+                        <div class="item-price">
+                            <p>Delivery Charges</p>
+                            <p>Rs. 100</p>
+                        </div>
+                        <hr>
+                        <div class="item-price">
+                            <p>Total</p>
+                            <p>Rs. 900</p>
+                        </div>
+                        <button class="btn btn-icon success-icon cart">
+                            <i class="fa-solid fa-circle-info"></i>
+                            <span>Place Order</span>
+                        </button>
+                    </div>
+                </div>
+            </div>																				
+        </div>
+    </div>
+
+    <footer class="footer"></footer>
+    
+    <script src="./scripts/nav.js"></script>
+    <script src="./scripts/footer.js"></script>
+</body>
+</html>
