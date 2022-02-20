@@ -5,10 +5,17 @@ const createNavbar = () => {
         <a href="./index.html">
             <img src="./img/brand-logo.png" class="brand-logo" alt="">
         </a>
+        
         <div class="nav-items">
             <div class="search">
                 <input type="text" class="search-box" placeholder="search brand, product">
             </div>
+        
+            <div class="nav-hamburger">
+            <i class="fa fa-solid fa-bars"></i>
+        </div>  
+        
+        <div class="nav-user">
             <a href="./login.html"><button class="btn success-link">Login</button></a>
             <a href="./whishlist.html">
                 <div class="icon-badge">
@@ -22,6 +29,7 @@ const createNavbar = () => {
                     <div class="icon-badge-count">2</div>
                 </div> 
             </a>
+            </div>
         </div>
     </div>
     <ul class="links-container">
@@ -32,3 +40,11 @@ const createNavbar = () => {
     `;
 }
 createNavbar();
+
+const navHamburger = document.querySelector('.nav-hamburger');
+const navBar = document.querySelector('.nav');
+
+navHamburger.addEventListener('click', () => {
+    console.log("object");
+    navBar.classList.toggle('active');
+});
