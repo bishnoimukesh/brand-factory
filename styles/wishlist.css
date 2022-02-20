@@ -1,0 +1,34 @@
+@import './nav.css';
+@import './footer.css';
+
+.wishlist-container {
+    width: 100%;
+    margin: 0.5em auto;
+    padding: 1em 0.5em;
+    border: 0;
+}
+
+.card{
+    max-width: 15em;
+    margin: 0.5em;
+}
+
+.wishlist-heading {
+    text-align: center;
+}
+
+.wishlist-items-container > .card-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    max-width: none;
+    justify-content: space-around;
+}
+
+.name-heading, .name-sub-heading, .price, .text-striked{
+    padding-top: 1.2em;
+}
+
+.btn-dismiss{
+    font-size: 1.5em;
+}
