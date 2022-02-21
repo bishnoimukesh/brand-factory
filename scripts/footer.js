@@ -6,11 +6,18 @@ const createFooter = () => {
             <div class="footer-ul-container">
                 <ul class="category">
                     <li class="category-title">Help</li>
-                    <li><a href="#" class="footer-link">contact</a></li>
+                    <li><a href="#" class="footer-link">Payment</a></li>
+                    <li><a href="#" class="footer-link">Shipping</a></li>
+                    <li><a href="#" class="footer-link">Report</a></li>
+                    <li><a href="#" class="footer-link">FAQ</a></li>
                 </ul>
                 <ul class="category">
                     <li class="category-title">Policy</li>
-                    <li><a href="#" class="footer-link">Return</a></li>
+                    <li><a href="#" class="footer-link">Return Policy</a></li>
+                    <li><a href="#" class="footer-link">Term of Use</a></li>
+                    <li><a href="#" class="footer-link">Site Map</a></li>
+                    <li><a href="#" class="footer-link">Privacy</a></li>
+                    <li><a href="#" class="footer-link">Security</a></li>
                 </ul>
             </div>
         </div>
