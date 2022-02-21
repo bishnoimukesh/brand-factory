@@ -9,8 +9,7 @@ The brand is making a conscious effort to bring the power of fashion to shoppers
 array of the latest and trendiest products available in the country.
 
 ## Demo
-
-Insert gif or link to demo
+https://user-images.githubusercontent.com/37878172/155026925-7acf3808-b71c-4156-972b-e56d6b00bdc0.mov
 
 ## Tech Stack
 
