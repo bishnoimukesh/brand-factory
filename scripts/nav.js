@@ -16,7 +16,9 @@ const createNavbar = () => {
         </div>  
         
         <div class="nav-user">
-            <a href="./login.html"><button class="btn success-link">Login</button></a>
+            <a class="login-btn" href="./login.html">
+                <button class="btn success-link">Login/Logout</button>
+            </a>
             <a href="./whishlist.html">
                 <div class="icon-badge">
                     <i class="fas fa-heart icon-badge-img"></i>
