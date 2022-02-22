@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8f502442-3ab5-4722-9779-2b6f1ad1251a/deploy-status)](https://app.netlify.com/sites/brand-factory/deploys)
 
 # Brand Factory
 
